@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/App-BXTnmEdE.js","assets/index-ltQ54wmq.js"])))=>i.map(i=>d[i]);
+import{f as e,i as t,s as n,t as r}from"./index-ltQ54wmq.js";var i=e(n(),1),a=t(),o=(0,i.lazy)(()=>r(()=>import(`./App-BXTnmEdE.js`),__vite__mapDeps([0,1])));function s(){let[e,t]=(0,i.useState)(!1);return(0,i.useEffect)(()=>t(!0),[]),e?(0,a.jsx)(i.Suspense,{fallback:(0,a.jsx)(`div`,{style:{minHeight:`100vh`}}),children:(0,a.jsx)(o,{})}):(0,a.jsx)(`div`,{style:{minHeight:`100vh`}})}export{s as t};
